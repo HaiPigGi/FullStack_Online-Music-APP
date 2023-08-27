@@ -1,0 +1,14 @@
+<!-- views/songList.ejs -->
+<html>
+<head>
+    <title>Song List</title>
+</head>
+<body>
+    <h1>Song List</h1>
+    <ul>
+        <% songs.forEach(song => { %>
+            <li><%= song.title %> by <%= song.artist %> (Duration: <%= song.duration %>)</li>
+        <% }); %>
+    </ul>
+</body>
+</html>

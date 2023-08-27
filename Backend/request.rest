@@ -1,0 +1,5 @@
+###
+GET  http://localhost:5000/song
+
+###
+GET  http://localhost:5000/show
